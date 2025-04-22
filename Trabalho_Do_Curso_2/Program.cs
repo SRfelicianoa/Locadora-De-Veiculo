@@ -18,7 +18,7 @@ namespace Trabalho_Do_Curso_2
         static ClienteServico _clienteServico;
         static void Main(string[] args) 
         {
-            _clienteServico = new ClienteServico();
+            _clienteServico = ClienteServico();
             bool executar = true;
 
             do
